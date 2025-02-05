@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: briarheart1096/boardshack:latest
+          image: briarheart1096/boardgame:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
